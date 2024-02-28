@@ -2,7 +2,7 @@
 import { useState } from "react";
 import OpenAI from "openai";
 
-const openai = new OpenAI({ apiKey: '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',  dangerouslyAllowBrowser: true});
+const openai = new OpenAI({ apiKey: '',  dangerouslyAllowBrowser: true});
 
 export default function Home() {
    const [prompt, setPrompt] = useState('');
